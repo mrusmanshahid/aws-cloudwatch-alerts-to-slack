@@ -10,4 +10,4 @@ This app delivers cloudwatch alerts to slack using SNS topics subscription.
 4. Update lambda handler in AWS lambda runtime handler settings to ***lambda.lambda_handler***
 5. Deploy lambda
 6. Subscribe deployed lambda to cloudwatch alert.
-7. We are good! :joy:
+7. We are good! :wave:
