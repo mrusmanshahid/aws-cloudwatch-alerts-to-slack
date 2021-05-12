@@ -48,7 +48,6 @@ def post_message_to_slack(json_msg):
                )
 
 def lambda_handler(event, context):
-    print(event)
     sns = event['Records'][0]['body']
     json_msg = json.loads(json.loads(sns)['Message'])
     post_message_to_slack(json_msg)
